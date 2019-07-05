@@ -28,6 +28,7 @@ dependencies:
   transparent_image: ^0.1.0
   cached_network_image: ^0.5.0
   dio: ^2.1.0
+  web_socket_channel: ^1.0.13
 
 dev_dependencies:
   flutter_test:

@@ -8,6 +8,9 @@ import 'package:flutterdemo1/longlist/SwipToDeleteView.dart';
 import 'package:flutterdemo1/longlist/TapActions.dart';
 import 'package:flutterdemo1/longlist/NavigateWithParms.dart';
 import 'package:flutterdemo1/longlist/NavBackWithParms.dart';
+import 'package:flutterdemo1/longlist/DataFromNetwork.dart';
+import 'package:flutterdemo1/longlist/WebSocketView.dart';
+import 'package:flutterdemo1/longlist/FaveriteStateful.dart';
 
 class  TestApp extends StatelessWidget { 
   @override
@@ -67,7 +70,19 @@ class ListHomePage extends StatelessWidget {
       showName: 'NavBackWithParms',
       gotoWidget: new NavBackWithParmsApp()
     ),
-    
+     new GuideItem (
+      showName: 'DataFromNetwork',
+      gotoWidget: new DataFromNetworkApp()
+    ),
+    // WebSocketView
+     new GuideItem (
+      showName: 'WebSocketView',
+      gotoWidget: new WebsocketView()
+    ),
+        new GuideItem (
+      showName: 'FavoriteApp',
+      gotoWidget: new FavoriteApp()
+    ),
   ];
 
   @override
