@@ -7,6 +7,7 @@ import 'package:flutterdemo1/longlist/GridListView.dart';
 import 'package:flutterdemo1/longlist/SwipToDeleteView.dart';
 import 'package:flutterdemo1/longlist/TapActions.dart';
 import 'package:flutterdemo1/longlist/NavigateWithParms.dart';
+import 'package:flutterdemo1/longlist/NavBackWithParms.dart';
 
 class  TestApp extends StatelessWidget { 
   @override
@@ -62,6 +63,11 @@ class ListHomePage extends StatelessWidget {
       showName: 'NavigateWithParmsApp',
       gotoWidget: new NavigateWithParmsApp()
     ),
+     new GuideItem (
+      showName: 'NavBackWithParms',
+      gotoWidget: new NavBackWithParmsApp()
+    ),
+    
   ];
 
   @override
