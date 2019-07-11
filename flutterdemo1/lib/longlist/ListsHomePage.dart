@@ -11,7 +11,13 @@ import 'package:flutterdemo1/longlist/NavBackWithParms.dart';
 import 'package:flutterdemo1/longlist/DataFromNetwork.dart';
 import 'package:flutterdemo1/longlist/WebSocketView.dart';
 import 'package:flutterdemo1/longlist/FaveriteStateful.dart';
+import 'package:flutterdemo1/longlist/UseRouteToPages.dart';
 
+import 'package:flutterdemo1/Tabbar/bottomNaviBar.dart'; 
+import 'package:flutterdemo1/Tabbar/defalutTabControl.dart'; 
+import 'package:flutterdemo1/Tabbar/MyTabContorller.dart'; 
+import 'package:flutterdemo1/Tabbar/Drawers.dart'; 
+// 
 class  TestApp extends StatelessWidget { 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +47,30 @@ class GuideItem {
 }
 
 class ListHomePage extends StatelessWidget { 
+  // 
   final items = [
+    // Drawers
+      new GuideItem (
+      showName: 'MyDrawerViewApp view ',
+      gotoWidget: new MyDrawerViewApp()
+    ), 
+    // MyTabControllerWidget
+    new GuideItem (
+      showName: 'MyTabControllerWidget view ',
+      gotoWidget: new MyTabControllerWidget()
+    ), 
+    new GuideItem (
+      showName: 'MyTabcontroller view ',
+      gotoWidget: new MyTabcontroller()
+    ), 
+    new GuideItem (
+      showName: 'Tabbar view ',
+      gotoWidget: new MyStatefulWidgetApp()
+    ), 
+    new GuideItem (
+      showName: 'UseRouteToPages List',
+      gotoWidget: new UseRouteToPages()
+    ),
     new GuideItem (
       showName: 'Long List',
       gotoWidget: new ListViewApp()
