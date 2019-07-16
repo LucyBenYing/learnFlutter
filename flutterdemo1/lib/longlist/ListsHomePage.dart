@@ -17,7 +17,9 @@ import 'package:flutterdemo1/Tabbar/bottomNaviBar.dart';
 import 'package:flutterdemo1/Tabbar/defalutTabControl.dart'; 
 import 'package:flutterdemo1/Tabbar/MyTabContorller.dart'; 
 import 'package:flutterdemo1/Tabbar/Drawers.dart'; 
-// 
+
+import 'package:flutterdemo1/ShoppingList/ShoppingList.dart';
+
 class  TestApp extends StatelessWidget { 
   @override
   Widget build(BuildContext context) {
@@ -49,6 +51,12 @@ class GuideItem {
 class ListHomePage extends StatelessWidget { 
   // 
   final items = [
+        // ShoppingList
+      new GuideItem (
+      showName: 'ShoppingListPage view ',
+      gotoWidget: new ShoppingListPage()
+    ), 
+
     // Drawers
       new GuideItem (
       showName: 'MyDrawerViewApp view ',
