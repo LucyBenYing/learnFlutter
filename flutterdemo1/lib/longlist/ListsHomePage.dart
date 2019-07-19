@@ -12,6 +12,7 @@ import 'package:flutterdemo1/longlist/DataFromNetwork.dart';
 import 'package:flutterdemo1/longlist/WebSocketView.dart';
 import 'package:flutterdemo1/longlist/FaveriteStateful.dart';
 import 'package:flutterdemo1/longlist/UseRouteToPages.dart';
+import 'package:flutterdemo1/longlist/RereshAndLoadMore.dart';
 
 import 'package:flutterdemo1/Tabbar/bottomNaviBar.dart'; 
 import 'package:flutterdemo1/Tabbar/defalutTabControl.dart'; 
@@ -51,6 +52,11 @@ class GuideItem {
 class ListHomePage extends StatelessWidget { 
   // 
   final items = [
+    // RereshAndLoadMore
+       new GuideItem (
+      showName: 'RefreshAndLoadMore view ',
+      gotoWidget: new RefreshAndLoadMore()
+    ), 
         // ShoppingList
       new GuideItem (
       showName: 'ShoppingListPage view ',
