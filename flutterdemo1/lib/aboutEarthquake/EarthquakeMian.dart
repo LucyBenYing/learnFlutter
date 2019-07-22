@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterdemo1/EarthquakeItemData.dart';
+import 'package:flutterdemo1/aboutEarthquake/EarthquakeItemData.dart';  
 import 'EarthquakeHomePage.dart';
 import 'EarthquakeDetailPage.dart';
 import 'EarthquakeItemData.dart';

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart'; 
-import 'package:flutterdemo1/EarthquakeItemData.dart';
-// import 'package:flutterdemo1/EarthquakeRspData.dart';
+import 'package:flutterdemo1/aboutEarthquake/EarthquakeItemData.dart';  
 import 'EarthquakeData.dart';
 import 'EarthquakeItemData.dart';
 import 'EarthquakeDetailPage.dart';

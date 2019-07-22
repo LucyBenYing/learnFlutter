@@ -20,6 +20,7 @@ import 'package:flutterdemo1/Tabbar/MyTabContorller.dart';
 import 'package:flutterdemo1/Tabbar/Drawers.dart'; 
 
 import 'package:flutterdemo1/ShoppingList/ShoppingList.dart';
+import 'package:flutterdemo1/aboutEarthquake/MapView.dart'; 
 
 class  TestApp extends StatelessWidget { 
   @override
@@ -52,6 +53,11 @@ class GuideItem {
 class ListHomePage extends StatelessWidget { 
   // 
   final items = [
+    // MapViewPage
+    new GuideItem (
+      showName: 'MapViewPage view ',
+      gotoWidget: new MapViewPage()
+    ), 
     // RereshAndLoadMore
        new GuideItem (
       showName: 'RefreshAndLoadMore view ',

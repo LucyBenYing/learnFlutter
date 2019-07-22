@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart'; 
-import 'package:flutterdemo1/EarthquakeItemData.dart';
+import 'package:flutterdemo1/aboutEarthquake/EarthquakeItemData.dart'; 
 
 class EarthquakeDetailPage extends StatelessWidget {
   final EarthquakeItemData detailItem;
