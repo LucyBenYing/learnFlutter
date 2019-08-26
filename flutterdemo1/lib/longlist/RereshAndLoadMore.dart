@@ -95,7 +95,7 @@ class ItemEntity {
 }
 
 class ItemsView extends StatelessWidget {
-  ItemEntity itemEntity;
+  final ItemEntity itemEntity;
   ItemsView(this.itemEntity);
   @override
   Widget build(BuildContext context) {

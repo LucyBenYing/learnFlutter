@@ -15,6 +15,7 @@ class EarthquakeData extends StatelessWidget {
     "msg": "\u6210\u529f",
     "data": [
         
+        
         {
             "id": 143,
             "m": 6.3,

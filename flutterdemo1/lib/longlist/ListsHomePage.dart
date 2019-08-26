@@ -22,6 +22,8 @@ import 'package:flutterdemo1/Tabbar/Drawers.dart';
 import 'package:flutterdemo1/ShoppingList/ShoppingList.dart';
 import 'package:flutterdemo1/aboutEarthquake/MapView.dart'; 
 
+import 'package:flutterdemo1/others/LifeCycle.dart'; 
+
 class  TestApp extends StatelessWidget { 
   @override
   Widget build(BuildContext context) {
@@ -53,6 +55,11 @@ class GuideItem {
 class ListHomePage extends StatelessWidget { 
   // 
   final items = [
+    // ViewLifeCycle
+      new GuideItem (
+      showName: 'ViewLifeCycle view ',
+      gotoWidget: new ViewLifeCycle()
+    ), 
     // MapViewPage
     new GuideItem (
       showName: 'MapViewPage view ',
